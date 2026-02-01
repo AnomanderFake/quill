@@ -70,7 +70,8 @@ fis Le Guin Reviewer (final quality check)
 ### Quill as Generic Writing Pipeline
 
 **Standalone Usage:**
-- Refinement Pipeline: Polish any prose
+- Refinement Pipeline: Polish any prose (compress -20-40%)
+- Depth Expansion: Enrich refined prose (+15-25%)
 - Expansion Pipeline: Generate from ideas
 - Master Orchestrator: Intelligent routing
 
@@ -139,6 +140,7 @@ quill/
 │   ├── refinement/
 │   │   ├── refinement_coordinator.md
 │   │   ├── prose_refiner.md
+│   │   ├── depth_expander.md (NEW v2.1)
 │   │   └── quality_reviewer.md
 │   ├── expansion/
 │   │   ├── expansion_coordinator.md
@@ -187,6 +189,13 @@ quill/
 
 **Status:** Not yet tested
 **Next:** Test with idea → beats → prose → refinement flow
+
+### Depth Expansion (NEW v2.1)
+
+**Status:** Just added, not yet tested
+**Feature:** Strategic enrichment (+15-25%) of refined prose
+**Adapted from:** fis Second Draft Agent (made generic)
+**Next:** Test with refined prose that feels too compressed
 
 ### fis Integration
 
