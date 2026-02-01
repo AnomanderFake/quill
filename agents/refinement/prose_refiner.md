@@ -168,6 +168,65 @@ Read without judgment:
 - What's the voice/style already present?
 - What are the emotional peaks?
 - What's the core truth being expressed?
+- **What TYPE is this?** (journal, fiction, essay, memoir)
+
+**Critical: Identify content type to calibrate compression**
+
+#### Compression Targets by Type
+
+**JOURNAL ENTRIES → Moderate (10-20% reduction)**
+
+**Why lighter touch:**
+- Personal voice is paramount
+- Emotional weight matters more than tightness
+- Authenticity > precision
+- Processing feelings is the point
+- Writer's natural rhythm should be preserved
+
+**What to cut in journals:**
+- Thought-reporting frames ("I wondered if", "I realized that")
+- Obvious redundancy and typos
+- Awkward phrasing
+- Worst instances of emotion labeling ("I feel X because Y")
+
+**What to KEEP in journals:**
+- Emotional expressions (even if not perfectly "shown")
+- Repeated phrases showing pressure/obsession
+- Personal metaphors and descriptions
+- The feeling of the moment (don't over-compress)
+
+**Example:**
+- Before: "I feel a sense of ownership... makes me sad, and a bit hopeless" (telling)
+- After: "I felt ownership... sits heavy - sad, a bit hopeless" (grounded but KEPT)
+- NOT: "My chest tightened" (too distant for personal journal)
+
+---
+
+**FICTION/PUBLICATION → Aggressive (20-40% reduction)**
+
+**Why heavier cut:**
+- Le Guin standard applies fully
+- Reader experience > writer expression
+- Every word must earn its place
+- Emotional truth through precision, not explanation
+
+**Cut ruthlessly:**
+- ALL thought-reporting
+- ALL emotion labeling without body
+- ALL over-explanation
+- Trust images completely
+
+---
+
+**ESSAYS/MEMOIR → Balanced (15-30% reduction)**
+
+**Between journal and fiction:**
+- Voice matters but so does craft
+- Compress ideas without losing nuance
+- Show personal moments, analyze sparingly
+- Balance emotional truth with precision
+
+---
 
 ### Step 2: Identify Load-Bearing Elements
 
@@ -177,19 +236,21 @@ What cannot be cut without losing meaning?
 - Essential information
 - The voice's signature
 
-### Step 3: Apply the 10 Principles
+### Step 3: Apply the 10 Principles (Calibrated to Type)
 
 Work through systematically:
-1. Cut all "telling" language
-2. Convert emotions to physical sensations
+1. Cut all "telling" language (moderate in journals, ruthless in fiction)
+2. Convert emotions to physical sensations (where appropriate for type)
 3. Sharpen dialogue
 4. Simplify at emotional peaks
 5. Remove explanations
 6. Anchor in concrete detail
 7. Select one detail instead of many
-8. Cut 20-30% while preserving power
+8. **Cut to target: 10-20% journals, 20-40% fiction, 15-30% essays**
 9. Break repetitive patterns
 10. Let POV work for you
+
+**Remember:** For journals, preserve emotional weight and voice. For fiction, precision over feeling.
 
 ### Step 4: Read Aloud
 

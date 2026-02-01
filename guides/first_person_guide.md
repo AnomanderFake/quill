@@ -212,6 +212,34 @@ unable to commit to either choice.
 
 ---
 
+## Compression for Journal Entries
+
+**IMPORTANT: Journal entries need lighter compression than fiction.**
+
+**Target: 10-20% reduction (not 30-40%)**
+
+**Why:**
+- Voice and authenticity matter more than tightness
+- Emotional expressions should be preserved (even if not perfectly "shown")
+- Repeated phrases often show psychological pressure (don't cut them all)
+- Personal metaphors and rhythms are part of the writer's process
+
+**What to fix:**
+- Thought-reporting frames ("I wondered if" → "Did she?")
+- Obvious redundancy
+- Typos and awkward constructions
+- Over-explanation of what can be inferred
+
+**What to keep:**
+- Emotional weight (even "I felt sad" can stay if grounded: "sits heavy - sad")
+- Personal voice and rhythm
+- Repeated concerns (shows what's weighing on you)
+- Your natural way of thinking through things
+
+**Don't over-compress journals. They're for you first, readers second.**
+
+---
+
 ## Journal Entry Pattern: Before and After
 
 ### BEFORE (Typical Journal Entry)
@@ -273,6 +301,36 @@ I won't.
 
 **Word count:** 65 words (58% reduction)
 **Emotional impact:** Stronger
+
+**BUT: This is too aggressive for a journal entry. Better:**
+
+---
+
+### MODERATE VERSION (For Journals)
+
+```
+June 15th
+
+The BMX effort centers in NY. I've been working on it for a week and a half,
+and I felt ownership over it. Then this morning, a realization.
+
+I'm not driving this project. I'm a passerby. That sits heavy - sad, a bit
+hopeless. One more year of work that isn't really mine? Concerns that belong
+to someone else?
+
+But there's work in front of me. I need to do it. In doing it, I can build
+learning I'll leverage to leave. This year is foundation work. Finish the Algo
+side. Move back to BMX. On the business side, understand block reporting,
+matching mechanics, post-trade aspects.
+
+The question remains: am I building something, or just passing through?
+```
+
+**Word count:** 128 words (17% reduction)
+**What changed:** Fixed craft issues, preserved emotional weight
+**Emotional impact:** PRESERVED while cleaner
+
+**This is the right balance for journal entries.**
 
 ---
 
