@@ -172,9 +172,11 @@ Read without judgment:
 
 **Critical: Identify content type to calibrate compression**
 
-#### Compression Targets by Type
+#### Craft Intensity by Type
 
-**JOURNAL ENTRIES → Moderate (10-20% reduction)**
+**JOURNAL ENTRIES → Moderate Craft Application**
+
+**Priority: Voice > Craft > Compression**
 
 **Why lighter touch:**
 - Personal voice is paramount
@@ -183,38 +185,55 @@ Read without judgment:
 - Processing feelings is the point
 - Writer's natural rhythm should be preserved
 
-**What to cut in journals:**
+**What to fix in journals:**
 - Thought-reporting frames ("I wondered if", "I realized that")
 - Obvious redundancy and typos
 - Awkward phrasing
-- Worst instances of emotion labeling ("I feel X because Y")
+- Worst instances of over-explanation
 
 **What to KEEP in journals:**
 - Emotional expressions (even if not perfectly "shown")
 - Repeated phrases showing pressure/obsession
 - Personal metaphors and descriptions
-- The feeling of the moment (don't over-compress)
+- The feeling of the moment
 
 **Example:**
 - Before: "I feel a sense of ownership... makes me sad, and a bit hopeless" (telling)
 - After: "I felt ownership... sits heavy - sad, a bit hopeless" (grounded but KEPT)
 - NOT: "My chest tightened" (too distant for personal journal)
 
+**Result:** Typically 10-20% compression (side effect of fixes)
+
 ---
 
-**FICTION/PUBLICATION → Aggressive (20-40% reduction)**
+**FICTION/PUBLICATION → Full Craft Application**
 
-**Why heavier cut:**
-- Le Guin standard applies fully
-- Reader experience > writer expression
-- Every word must earn its place
-- Emotional truth through precision, not explanation
+**Priority: Craft > Compression**
 
-**Cut ruthlessly:**
-- ALL thought-reporting
-- ALL emotion labeling without body
-- ALL over-explanation
-- Trust images completely
+**The Le Guin Standard:**
+- Apply all 10 principles ruthlessly
+- Show, never tell
+- Body before emotion, always
+- Trust the reader completely
+- Compression happens naturally when craft is right
+
+**What this means:**
+- Remove EVERY instance of thought-reporting
+- Convert EVERY emotion label to physical sensation
+- Cut EVERY over-explanation
+- Make EVERY dialogue line do multiple jobs
+- Select ONE detail instead of many
+- Simplify at EVERY emotional peak
+
+**Don't compress to hit a target percentage.**
+**Apply craft principles. Compression is the natural result.**
+
+**Example:**
+- Before: "She felt overwhelmed by grief" (telling, abstract)
+- After: "Her hands wouldn't stop shaking" (showing, physical)
+- Compression happened, but craft was the goal
+
+**Result:** Typically 20-40% compression (natural result of craft)
 
 ---
 
@@ -238,19 +257,31 @@ What cannot be cut without losing meaning?
 
 ### Step 3: Apply the 10 Principles (Calibrated to Type)
 
-Work through systematically:
-1. Cut all "telling" language (moderate in journals, ruthless in fiction)
-2. Convert emotions to physical sensations (where appropriate for type)
-3. Sharpen dialogue
-4. Simplify at emotional peaks
-5. Remove explanations
-6. Anchor in concrete detail
-7. Select one detail instead of many
-8. **Cut to target: 10-20% journals, 20-40% fiction, 15-30% essays**
-9. Break repetitive patterns
-10. Let POV work for you
+**For Fiction: Apply craft ruthlessly. Compression is the natural result.**
 
-**Remember:** For journals, preserve emotional weight and voice. For fiction, precision over feeling.
+Work through systematically:
+1. Show, don't tell - Remove EVERY instance of thought-reporting and emotion labeling
+2. Body before emotion - EVERY feeling becomes physical sensation or action
+3. Weighted dialogue - EVERY line does multiple jobs
+4. Simplify at emotional peaks - EVERY peak gets shorter, simpler language
+5. Trust the reader - Remove EVERY explanation of what images show
+6. Concrete over abstract - EVERY concept anchored in physical reality
+7. Selection over catalog - ONE vivid detail, not three adequate ones
+8. Vary structure - Break EVERY repetitive pattern
+9. Let POV work - Use distance to prevent self-explanation
+10. **Compression happens naturally (typically 20-40% for fiction)**
+
+**For Journals: Fix obvious violations, preserve voice.**
+
+Apply moderately:
+1-9. Same principles, but don't eliminate all emotional expressions
+10. **Natural compression: 10-20%**
+
+**The difference:**
+- Fiction = Apply principles completely → compression follows
+- Journals = Apply principles carefully → preserve authenticity
+
+**Craft first. Compression is the side effect.**
 
 ### Step 4: Read Aloud
 

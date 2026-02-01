@@ -6,6 +6,10 @@
 
 ## The 10 Principles
 
+**IMPORTANT: Craft drives compression, not vice versa.**
+
+Le Guin's prose is compressed because every violation of craft has been removed. Apply the principles; compression happens naturally.
+
 1. **Show, don't tell** - Cut thought-reporting, trust images and actions
 2. **Body before emotion** - "His chest tightened" not "He felt anxious"
 3. **Weighted dialogue** - Every line does multiple jobs, silence matters
@@ -14,8 +18,11 @@
 6. **Concrete over abstract** - Even ideas grounded in physical reality
 7. **Select over catalog** - One vivid detail, not a list
 8. **Vary structure** - Break repetitive patterns
-9. **Compress wisely** - Cut fat, preserve muscle
+9. **Apply craft fully** - Compression is the natural result
 10. **Let POV work** - Use distance to prevent self-explanation
+
+**For fiction:** Apply all 10 ruthlessly. Compression follows.
+**For journals:** Apply moderately. Preserve voice.
 
 ---
 
