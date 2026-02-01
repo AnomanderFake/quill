@@ -17,7 +17,8 @@ A dual-pipeline writing system inspired by Ursula K. Le Guin's literary mastery.
 ### ✨ Refinement Pipeline
 **Polish existing prose**
 - Apply Le Guin's 10 principles
-- Compress and strengthen
+- Compress and strengthen (typically -20-40%)
+- Expand depth strategically (+15-25% enrichment)
 - Get quality assessment with specific feedback
 
 ### 🎯 Master Orchestrator
@@ -112,6 +113,33 @@ Refined Prose + Quality Review
 - Learn your craft weaknesses
 
 **See:** `workflows/refine_only.md`
+
+---
+
+### Depth Expansion: Refined → Enriched
+
+```
+Refined Prose (compressed)
+    ↓
+Depth Expander (adds strategic depth)
+    ↓
+Enriched Prose (+15-25% breathing room)
+```
+
+**What it does:**
+- Adds sensory grounding to key moments
+- Deepens emotional peaks
+- Smooths transitions
+- Lets moments breathe
+- Maintains Le Guin quality
+
+**When to use:**
+- Refined prose feels too skeletal
+- Emotional moments need more space
+- For publication (needs richness)
+- Quality reviewer noted "thin spots"
+
+**See:** `workflows/expand_depth.md`
 
 ---
 
@@ -221,6 +249,7 @@ quill/
 │   │
 │   ├── refinement/
 │   │   ├── prose_refiner.md (line-level polish)
+│   │   ├── depth_expander.md (strategic enrichment)
 │   │   ├── quality_reviewer.md (assessment)
 │   │   └── refinement_coordinator.md (orchestrates refinement)
 │   │
@@ -229,6 +258,7 @@ quill/
 ├── workflows/
 │   ├── expand_only.md (generation workflow)
 │   ├── refine_only.md (polish workflow)
+│   ├── expand_depth.md (depth enrichment workflow)
 │   ├── expand_then_refine.md (complete pipeline)
 │   └── iterative_development.md (multiple cycles)
 │
@@ -426,6 +456,13 @@ Le Guin's prose disappears. You don't notice the writing—you notice the charac
 ---
 
 ## Version
+
+**v2.1** — Depth expansion capability
+- Added: Depth Expander agent (strategic enrichment +15-25%)
+- Added: EXPAND_DEPTH mode in Refinement Coordinator
+- Added: `workflows/expand_depth.md`
+- Fills gap between compression and generation
+- Adapted from fis Second Draft Agent (made generic)
 
 **v2.0** — Dual-pipeline system
 - Added: Complete expansion pipeline (Idea Expander, Prose Generator)

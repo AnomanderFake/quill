@@ -203,6 +203,27 @@ Better to catch problems early.
 
 ---
 
+### Mode 5: Depth Expansion
+
+**When:** Already-refined prose feels too skeletal, needs enrichment
+
+**Process:**
+1. Intake already-refined text
+2. Run Depth Expander (adds 15-25% strategic depth)
+3. Light polish pass with Prose Refiner (if needed)
+4. Run Quality Reviewer to verify quality maintained
+5. Deliver enriched prose with expansion notes
+
+**Result:** Refined prose → Enriched prose with more breathing room
+
+**Use cases:**
+- Refined prose that's too compressed
+- Emotional peaks that need more space
+- Transitions that feel abrupt
+- Key moments needing sensory grounding
+
+---
+
 ## Input Format
 
 When requesting a pipeline run:
@@ -212,7 +233,7 @@ When requesting a pipeline run:
 [Paste the raw text, or provide file path]
 
 ## Pipeline Mode
-[FULL / REFINE_ONLY / REVIEW_ONLY / ITERATIVE]
+[FULL / REFINE_ONLY / REVIEW_ONLY / ITERATIVE / EXPAND_DEPTH]
 
 ## Context (Optional)
 [What is this? Scene from novel, journal entry, essay, etc.]
