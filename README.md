@@ -211,9 +211,7 @@ Finished Prose + Quality Review
 ```
 quill/
 ├── README.md (this file)
-├── QUICKSTART.md (fast start)
-├── PIPELINE_OVERVIEW.md (architecture)
-├── WORKFLOW.md (visual diagrams)
+├── QUICKSTART.md (get started in 3 steps)
 │
 ├── agents/
 │   ├── expansion/
@@ -238,9 +236,11 @@ quill/
 │   ├── refinement_guide.md (10 principles)
 │   └── first_person_guide.md (POV-specific guidance)
 │
-├── examples/
-│   ├── expansion_input.txt (idea format)
-│   └── refinement_input.txt (prose format)
+├── integration/
+│   ├── SKILL_SETUP.md (use as Claude Code skill)
+│   ├── FIS_INTEGRATION.md (integrate with fis project)
+│   ├── INTEGRATION_OPTIONS.md (all integration methods)
+│   └── DEPLOYMENT.md (current deployment status)
 │
 └── resources/
     ├── examples_earthsea (Le Guin benchmark)
@@ -296,13 +296,14 @@ quill/
 ## Getting Started
 
 ### Step 1: Read Quick Start
-- `QUICKSTART.md` (5 minutes)
-- `guides/refinement_guide.md` (10 minutes)
+- `QUICKSTART.md` (3 steps to get running)
+- `guides/refinement_guide.md` (10 principles reference)
 
 ### Step 2: Choose a Workflow
 - Have idea? → `workflows/expand_only.md`
 - Have prose? → `workflows/refine_only.md`
 - Want both? → `workflows/expand_then_refine.md`
+- Not sure? → Use Master Orchestrator
 
 ### Step 3: Try It
 Pick one:
@@ -314,6 +315,11 @@ Pick one:
 - What changed?
 - Why did it change?
 - What can you learn?
+
+### Step 5: Set Up Integration (Optional)
+- As skill: `integration/SKILL_SETUP.md` (use `/refine`, `/expand`, `/review` everywhere)
+- With fis: `integration/FIS_INTEGRATION.md`
+- Other options: `integration/INTEGRATION_OPTIONS.md`
 
 ---
 
