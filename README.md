@@ -1,207 +1,208 @@
-# Quill: A Generic Writing Refinement Pipeline
+# Quill: Complete Writing Pipeline System
 
-A prose refinement system inspired by Ursula K. Le Guin's mastery of literary craft. Transform any piece of writing—scene, draft, journal entry, essay—into polished, literary-quality prose.
+A dual-pipeline writing system inspired by Ursula K. Le Guin's literary mastery. **Generate** prose from ideas, **refine** existing prose, or chain both together for complete authorship assistance.
 
 ---
 
 ## What This Is
 
-**Quill** is a writing pipeline that takes any prose and refines it using principles derived from studying Le Guin's work:
-- Show, don't tell
-- Body before emotion
-- Weighted dialogue
-- Precision under pressure
-- Trust the reader
+**Quill** is a modular writing system with two complementary pipelines:
 
-**What it works with:**
-- Novel scenes or chapters
-- Short stories
-- Personal essays
-- Memoir fragments
-- Journal entries
-- Any prose that needs refinement
+### 🌱 Expansion Pipeline
+**Generate prose from ideas**
+- Turn concepts into structured beats
+- Create Le Guin-quality draft prose
+- Work from loose thoughts to complete scenes
 
-**What it produces:**
-- Tighter, more powerful prose (typically 20-30% shorter)
-- Detailed quality assessment
-- Specific revision recommendations
-- Comparison to Le Guin's benchmark
+### ✨ Refinement Pipeline
+**Polish existing prose**
+- Apply Le Guin's 10 principles
+- Compress and strengthen
+- Get quality assessment with specific feedback
+
+### 🎯 Master Orchestrator
+**Intelligent routing**
+- Detects what you have (idea vs. prose)
+- Routes to appropriate pipeline(s)
+- Chains pipelines when needed
 
 ---
 
 ## Quick Start
 
-### 1. Prepare Your Text
+### Option 1: Let the System Decide (Recommended)
 
-Save your writing as `text.txt` (or any filename) in this directory.
+**Just paste your content** - idea, beats, or prose:
 
-### 2. Choose Your Workflow
+```
+[Your content here]
+```
 
-**Full Pipeline (Recommended):**
-- Refines your prose using Le Guin principles
-- Reviews it against quality standards
-- Provides detailed feedback
+The **Master Orchestrator** detects what you have and routes appropriately:
+- **Idea?** → Expansion Pipeline
+- **Raw prose?** → Refinement Pipeline
+- **Want both?** → Expansion → Refinement
 
-**Refinement Only:**
-- Just polishes your prose
-- Skips formal review
+### Option 2: Choose Your Pipeline
 
-**Review Only:**
-- Assesses already-refined text
-- Provides critique without changes
+**Have an idea? Want prose?**
+→ Use Expansion Pipeline (`agents/expansion/expansion_coordinator.md`)
 
-**Iterative:**
-- Multiple passes to perfection
-- For important pieces
+**Have prose? Want polish?**
+→ Use Refinement Pipeline (`agents/refinement/refinement_coordinator.md`)
 
-### 3. Run the Pipeline
-
-Use the **Pipeline Coordinator** (see `agents/pipeline_coordinator.md`) to orchestrate the workflow.
-
-The coordinator will:
-1. Take your text
-2. Run it through the Prose Refiner
-3. Run it through the Quality Reviewer
-4. Deliver refined text + quality report
-
-### 4. Review Results
-
-You'll receive:
-- **Refined text** - Tightened, showing increased, telling reduced
-- **Quality review** - 10-point assessment with specific feedback
-- **Statistics** - Word count changes, scores, recommendations
+**Not sure?**
+→ Use Master Orchestrator (`agents/master_orchestrator.md`)
 
 ---
 
-## The Pipeline
+## The Two Pipelines
+
+### Expansion Pipeline: Idea → Prose
 
 ```
-Your text (any writing)
+Your Idea/Thoughts/Beats
     ↓
-Prose Refiner
+Idea Expander (creates structured beats)
     ↓
-Quality Reviewer
+Prose Generator (creates Le Guin-quality draft)
     ↓
-[Optional: Second pass if needed]
-    ↓
-Refined text + Review → You
+Draft Prose (800-1200 words typical)
 ```
 
-### Prose Refiner
+**What it does:**
+- Converts loose ideas into structured beats
+- Identifies key images and emotional arcs
+- Generates prose that already shows (doesn't tell)
+- Applies Le Guin principles during generation
 
-Applies 10 core principles to any prose:
+**When to use:**
+- You have an idea, need prose
+- Plotting a scene
+- Journal thoughts → full entry
+- Exploring concepts through writing
 
-1. **Show, don't tell** - Cuts thought-reporting, trusts images
-2. **Body before emotion** - Grounds feeling in sensation
-3. **Weighted dialogue** - Makes every line do multiple jobs
-4. **Precision under emotion** - Simplifies at peaks
-5. **Trust the reader** - No explaining metaphors
-6. **Concrete over abstract** - Physical reality over concepts
+**See:** `workflows/expand_only.md`
+
+---
+
+### Refinement Pipeline: Prose → Polish
+
+```
+Your Prose (raw draft)
+    ↓
+Prose Refiner (applies 10 Le Guin principles)
+    ↓
+Quality Reviewer (assesses against standard)
+    ↓
+Refined Prose + Quality Review
+```
+
+**What it does:**
+- Shows instead of tells
+- Grounds emotion in body
+- Weighs dialogue
+- Compresses (typically 20-30%)
+- Provides quality scores and specific feedback
+
+**When to use:**
+- You have prose, need polish
+- Tighten journal entries
+- Strengthen drafts
+- Learn your craft weaknesses
+
+**See:** `workflows/refine_only.md`
+
+---
+
+### Combined: Idea → Finished Prose
+
+```
+Your Idea
+    ↓
+Expansion Pipeline (generates prose)
+    ↓
+Refinement Pipeline (polishes prose)
+    ↓
+Finished Prose + Quality Review
+```
+
+**Complete journey:** Concept to publication-ready in one workflow
+
+**See:** `workflows/expand_then_refine.md`
+
+---
+
+## The 10 Principles (Applied in Both Pipelines)
+
+1. **Show, don't tell** - Cut thought-reporting, trust images
+2. **Body before emotion** - "Chest tightened" not "felt anxious"
+3. **Weighted dialogue** - Every line does multiple jobs
+4. **Precision under emotion** - Simplify at peaks
+5. **Trust the reader** - Don't explain metaphors
+6. **Concrete over abstract** - Things, not concepts
 7. **Selection over catalog** - One detail, not five
-8. **Vary structure** - Breaks repetitive patterns
-9. **Compress wisely** - Cuts fat, keeps muscle
-10. **Let POV work** - Uses distance productively
+8. **Vary structure** - Break repetitive patterns
+9. **Compress wisely** - Cut fat, preserve muscle
+10. **Use POV** - Distance prevents self-explanation
 
-**Typical results:**
-- 20-30% compression
-- Stronger emotional impact
-- Cleaner, more precise language
-- Dialogue that reveals character
+**Expansion** applies these during generation.
+**Refinement** applies these during polish.
 
-See: `agents/prose_refiner.md`
-
-### Quality Reviewer
-
-Assesses refined prose against Le Guin's standard:
-
-Scores 10 quality checks:
-- Show, don't tell
-- Body before emotion
-- Weighted dialogue
-- Precision under emotion
-- Trust the reader
-- Concrete over abstract
-- Selection over catalog
-- Structural variation
-- Appropriate compression
-- POV integrity
-
-**Each scored:** FAIL / WEAK / ACCEPTABLE / STRONG
-
-**Provides:**
-- Specific passages that need work
-- Le Guin examples showing the right way
-- Prioritized revision recommendations
-- Comparison to benchmark
-
-See: `agents/quality_reviewer.md`
+**Result:** Le Guin-level craft throughout.
 
 ---
 
-## Example Workflow
+## Example Workflows
 
-### Example 1: Draft Scene → Polished Scene
+### Workflow 1: Generate Scene from Idea
 
-**Input:** 1,500-word first draft of a novel scene
+**Input:** "Write about returning to grandmother's house after she dies"
 
-**Process:**
-1. Run Full Pipeline
-2. Prose Refiner compresses to 1,100 words
-3. Quality Reviewer scores: Mix of ACCEPTABLE and WEAK
-4. Run second refinement pass targeting specific issues
-5. Second review: Mostly ACCEPTABLE/STRONG
+**Process:** Expansion Pipeline
+1. Idea Expander creates 7 beats
+2. Prose Generator creates 850-word scene
 
-**Result:** 1,050-word refined scene meeting quality standards
+**Output:**
+- Beats showing emotional arc
+- Draft scene ready to use or refine
 
-**Time:** Two passes
-
----
-
-### Example 2: Personal Essay Polish
-
-**Input:** 800-word essay, already decent
-
-**Process:**
-1. Run Refinement Only (quick polish)
-2. Output: 650 words, tighter and stronger
-
-**Result:** 19% compression, cleaner prose
-
-**Time:** Single pass
+**Time:** 15-20 minutes
 
 ---
 
-### Example 3: Quality Check
+### Workflow 2: Polish Journal Entry
 
-**Input:** Short story you've already revised
+**Input:** [1,000-word raw journal entry with "I felt" and "I thought"]
 
-**Process:**
-1. Run Review Only
-2. Get detailed assessment
+**Process:** Refinement Pipeline
+1. Prose Refiner compresses to 680 words
+2. Quality Reviewer scores: 8/10 ACCEPTABLE
 
-**Result:** Specific feedback on dialogue, emotion grounding, compression opportunities
+**Output:**
+- Refined entry (32% shorter, stronger)
+- Quality review with specific feedback
 
-**Time:** Single pass
+**Time:** 10-15 minutes
 
 ---
 
-## The Benchmark: Le Guin's Work
+### Workflow 3: Idea to Publication Quality
 
-This pipeline uses two chapters as reference standards:
+**Input:** "Scene where character confronts mother about past"
 
-### A Wizard of Earthsea - Chapter 1
-- Covers birth to age 13 in ~6,000 words
-- Demonstrates: Fragments representing years, show-not-tell, physical emotion
-- Study for: Childhood narratives, compression, sensory grounding
+**Process:** Expansion → Refinement
+1. Expansion generates beats + prose (920 words)
+2. Refinement polishes to 650 words, scores ACCEPTABLE
 
-### The Dispossessed - Chapter 1
-- Covers age 2 to 20 in ~12,000 words
-- Demonstrates: Vivid scenes as phases, weighted dialogue, concrete philosophy
-- Study for: Life-span narratives, intellectual content grounded physically
+**Output:**
+- Beats
+- Draft
+- Refined prose
+- Quality review
+- Complete progression visible
 
-Both available in `resources/`
-
-These aren't meant to force your writing to sound like Le Guin. They're examples of **craft mastery**—how to show without telling, ground emotion in body, make dialogue do multiple jobs, trust your reader.
+**Time:** 25-35 minutes
 
 ---
 
@@ -210,239 +211,256 @@ These aren't meant to force your writing to sound like Le Guin. They're examples
 ```
 quill/
 ├── README.md (this file)
-├── style_guide.md (quick reference)
+├── QUICKSTART.md (fast start)
+├── PIPELINE_OVERVIEW.md (architecture)
+├── WORKFLOW.md (visual diagrams)
+│
 ├── agents/
-│   ├── prose_refiner.md (line-level refinement)
-│   ├── quality_reviewer.md (assessment against standard)
-│   └── pipeline_coordinator.md (workflow orchestration)
+│   ├── expansion/
+│   │   ├── idea_expander.md (beats from ideas)
+│   │   ├── prose_generator.md (prose from beats)
+│   │   └── expansion_coordinator.md (orchestrates expansion)
+│   │
+│   ├── refinement/
+│   │   ├── prose_refiner.md (line-level polish)
+│   │   ├── quality_reviewer.md (assessment)
+│   │   └── refinement_coordinator.md (orchestrates refinement)
+│   │
+│   └── master_orchestrator.md (intelligent routing)
+│
+├── workflows/
+│   ├── expand_only.md (generation workflow)
+│   ├── refine_only.md (polish workflow)
+│   ├── expand_then_refine.md (complete pipeline)
+│   └── iterative_development.md (multiple cycles)
+│
+├── guides/
+│   ├── refinement_guide.md (10 principles)
+│   └── first_person_guide.md (POV-specific guidance)
+│
+├── examples/
+│   ├── expansion_input.txt (idea format)
+│   └── refinement_input.txt (prose format)
+│
 └── resources/
-    ├── examples_earthsea (Le Guin chapter 1)
-    └── examples_dispossessed (Le Guin chapter 1)
+    ├── examples_earthsea (Le Guin benchmark)
+    └── examples_dispossessed (Le Guin benchmark)
 ```
 
 ---
 
 ## Usage Patterns
 
-### Pattern 1: Rough Draft → Publication-Ready
-
-**For:** First drafts with common issues
-
-**Workflow:** FULL pipeline, likely 2 passes
-
-**What happens:**
-- First pass: Major tightening, showing increased, 30-40% reduction
-- Review: Identifies remaining weaknesses
-- Second pass: Targeted fixes
-- Final: Meets ACCEPTABLE standard or higher
-
-**When to use:** Important writing you want to perfect
-
----
+### Pattern 1: Quick Generation
+**Need:** Prose from idea
+**Use:** Expansion only
+**Time:** 15-20 min
+**Output:** Draft prose
 
 ### Pattern 2: Quick Polish
+**Need:** Tighten existing prose
+**Use:** Refinement only
+**Time:** 10-15 min
+**Output:** Refined + review
 
-**For:** Decent drafts that just need tightening
+### Pattern 3: Complete Pipeline
+**Need:** Idea to finished prose
+**Use:** Expansion → Refinement
+**Time:** 25-35 min
+**Output:** Full progression
 
-**Workflow:** REFINE_ONLY
-
-**What happens:**
-- Single refinement pass
-- 20-30% compression
-- Cleaner prose
-
-**When to use:** Good enough drafts, time-limited, routine polishing
-
----
-
-### Pattern 3: Learning Tool
-
-**For:** Understanding your craft weaknesses
-
-**Workflow:** REVIEW_ONLY on your revised drafts
-
-**What happens:**
-- Detailed assessment
-- Specific examples of what to improve
-- Le Guin comparisons showing better approaches
-
-**When to use:** Skill development, understanding your patterns
+### Pattern 4: Iterative Development
+**Need:** Perfect important work
+**Use:** Multiple cycles
+**Time:** 40-60 min
+**Output:** Excellence
 
 ---
 
-### Pattern 4: Iterative Perfection
+## What Makes This Different
 
-**For:** Critical pieces (opening chapter, key scenes, published essays)
+### vs. Traditional "First Draft" Tools
+**Traditional:** Generate everything, fix later
+**Quill Expansion:** Generate with principles embedded
 
-**Workflow:** ITERATIVE, 2-3 passes
+### vs. Traditional "Editing" Tools
+**Traditional:** Grammar and spelling
+**Quill Refinement:** Literary craft and emotional truth
 
-**What happens:**
-- First refinement + review
-- Targeted second refinement on weak areas
-- Second review confirming improvements
-- Optional third pass if needed
-
-**When to use:** Stakes are high, quality must be excellent
-
----
-
-## What This Pipeline Does Well
-
-✓ **Tightens prose** - Removes over-explanation, cuts telling
-✓ **Sharpens dialogue** - Makes every line do work
-✓ **Grounds emotion** - Converts feelings to physical sensations
-✓ **Increases precision** - Simplifies at emotional peaks
-✓ **Provides specific feedback** - Not vague "could be better"
-✓ **Shows examples** - Le Guin comparisons for every issue
-✓ **Adapts to your voice** - Doesn't impose Le Guin's style, uses her principles
-
----
-
-## What This Pipeline Doesn't Do
-
-✗ **Generate new content** - It refines what you give it
-✗ **Fix structure** - Plot, pacing, organization need manual work
-✗ **Change genre** - Sci-fi stays sci-fi, memoir stays memoir
-✗ **Replace your judgment** - You decide what feedback to accept
-✗ **Work on poetry** - Different craft entirely
-
----
-
-## Common Questions
-
-### "Will this make my writing sound like Le Guin?"
-
-No. It will make your writing **clearer, tighter, and more emotionally resonant** using principles she mastered. Your voice remains yours.
-
-### "What if I'm writing genre fiction, not literary fiction?"
-
-The principles work across genres:
-- Show-not-tell applies to thrillers
-- Weighted dialogue applies to romance
-- Body-before-emotion applies to sci-fi
-
-Le Guin herself wrote across genres (fantasy, sci-fi, realistic fiction).
-
-### "How much compression should I expect?"
-
-Typical: 20-30% reduction on first pass.
-
-But the goal isn't shortness—it's **impact**. Sometimes a scene gains words by adding necessary sensory detail or emotional beats.
-
-### "What if the Quality Reviewer fails my writing?"
-
-FAIL scores mean specific, fixable issues:
-- Thought-reporting present (cut it)
-- Generic dialogue (sharpen it)
-- Emotions not grounded (add physical sensation)
-
-Each FAIL comes with examples and revision guidance.
-
-### "How many passes do I need?"
-
-- **Decent drafts:** 1 pass
-- **Rough drafts:** 2 passes
-- **Important pieces:** 2-3 passes
-- **If still failing after 3:** May need structural work, not line-level refinement
-
----
-
-## Tips for Best Results
-
-### Before Running Pipeline
-
-1. **Know what you're refining** - Scene? Essay? Journal entry?
-2. **Set goals** - What do you want improved?
-3. **Note constraints** - Anything to preserve?
-
-### During Pipeline
-
-1. **Read the quality review carefully** - Don't just look at scores
-2. **Study the Le Guin examples provided** - See how she handled similar moments
-3. **Focus second passes** - Target specific issues, not general re-refinement
-
-### After Pipeline
-
-1. **Don't accept everything blindly** - You're the final judge
-2. **Learn from patterns** - Do you over-explain? Use generic dialogue?
-3. **Apply lessons to new writing** - Internalize the principles
-
----
-
-## Advanced Usage
-
-### For Ongoing Projects
-
-Create a `drafts/` folder:
-- `scene01_draft.txt` → `scene01_refined.txt` + `scene01_review.txt`
-- `scene02_draft.txt` → `scene02_refined.txt` + `scene02_review.txt`
-
-Track your quality scores over time. Are you improving?
-
-### For Learning
-
-Run Review Only on published authors you admire:
-- How do they score against Le Guin standard?
-- What techniques do they use?
-- What could be tighter?
-
-### For Specific Issues
-
-Tell the Prose Refiner to focus:
-- "This dialogue is generic. Make it character-specific."
-- "This scene over-explains emotion. Ground it in physical sensation."
-- "Too many sensory details. Select the most important."
-
----
-
-## The Philosophy
-
-This pipeline is based on one insight:
-
-**Great prose isn't about beautiful language. It's about invisible craft that lets the reader experience the story directly.**
-
-Le Guin's prose disappears. You don't notice the writing—you notice the character's cold hands, the smell of smoke, the weight of a decision.
-
-That's what this pipeline teaches:
-- Cut what stands between reader and experience
-- Show through action and sensation
-- Trust the reader's intelligence
-- Make every word earn its place
-
-Not to write like Le Guin, but to write with her level of craft.
+### vs. Generic AI Writing
+**Generic:** Any style, variable quality
+**Quill:** Le Guin standard, consistent quality
 
 ---
 
 ## Getting Started
 
-1. **Read the style guide** (`style_guide.md`) - Quick reference
-2. **Read one Le Guin example** (`resources/examples_earthsea` or `examples_dispossessed`)
-3. **Prepare a piece to refine** (500-2000 words ideal for first try)
-4. **Run Full Pipeline** using Pipeline Coordinator
-5. **Study the results** - Refined text + quality review
-6. **Iterate if needed** - Second pass targeting specific issues
+### Step 1: Read Quick Start
+- `QUICKSTART.md` (5 minutes)
+- `guides/refinement_guide.md` (10 minutes)
+
+### Step 2: Choose a Workflow
+- Have idea? → `workflows/expand_only.md`
+- Have prose? → `workflows/refine_only.md`
+- Want both? → `workflows/expand_then_refine.md`
+
+### Step 3: Try It
+Pick one:
+- Generate scene from idea (try expansion)
+- Polish journal entry (try refinement)
+- Complete pipeline (try both)
+
+### Step 4: Study Results
+- What changed?
+- Why did it change?
+- What can you learn?
+
+---
+
+## Advanced Usage
+
+### Combine Pipelines Creatively
+
+**Generate variations:**
+- Same idea, different beats → Multiple versions
+- Compare generated options → Pick best
+
+**Targeted generation:**
+- Generate just one scene beat
+- Insert into existing work
+
+**Iterative refinement:**
+- First pass: General polish
+- Second pass: Target specific issues (dialogue, emotion)
+- Third pass: Final perfection
+
+### Build a Project
+
+```
+project/
+├── ideas/ (raw concepts)
+├── beats/ (expanded structures)
+├── drafts/ (generated prose)
+├── refined/ (polished versions)
+└── final/ (ready for use)
+```
+
+Track progression from idea to finish.
+
+---
+
+## For Different Use Cases
+
+### Fiction Writers
+- Plot scenes → Generate → Refine → Integrate
+- Multiple POV handling (first and third person)
+- Chapter-level iteration
+
+### Journal Writers
+- Thoughts → Structure → Polish → Reflect
+- First-person optimization (see `guides/first_person_guide.md`)
+- Quick daily polish
+
+### Essayists
+- Thesis → Beats → Prose → Publication quality
+- Intellectual content grounded physically
+- Compression for word limits
+
+### Memoirists
+- Memory fragments → Scene → Refined memory
+- Show-not-tell especially critical
+- Physical detail over analysis
+
+---
+
+## Learning from the Pipeline
+
+### What You'll Learn
+
+**From Expansion:**
+- How ideas become structure (beats)
+- What makes a moment "beat-worthy"
+- Physical grounding techniques
+- Emotional arc construction
+
+**From Refinement:**
+- Your specific weaknesses (quality scores)
+- How to show instead of tell
+- Compression without loss
+- Le Guin's techniques in practice
+
+**From Both:**
+- Complete authorship process
+- How craft decisions compound
+- What "Le Guin quality" means
+
+### Track Your Progress
+
+After 10 runs through pipelines:
+- Notice your patterns (always WEAK on dialogue?)
+- See improvement (scores rising?)
+- Internalize principles (writing refined prose naturally?)
+
+---
+
+## Philosophy
+
+This system embodies a belief:
+
+**Great prose isn't about beautiful language. It's about invisible craft that lets readers experience the story directly.**
+
+Le Guin's prose disappears. You don't notice the writing—you notice the character's cold hands, the smell of smoke, the weight of a decision.
+
+**Expansion Pipeline teaches:** How to build that invisible craft from the start
+
+**Refinement Pipeline teaches:** How to remove what blocks direct experience
+
+**Both teach:** Writing with Le Guin's level of mastery
 
 ---
 
 ## Version
 
-**v1.0** — Initial creation
-**Last updated:** February 2026
+**v2.0** — Dual-pipeline system
+- Added: Complete expansion pipeline (Idea Expander, Prose Generator)
+- Added: Master Orchestrator for intelligent routing
+- Added: Workflow documentation
+- Restructured: Modular agent organization
+- Enhanced: First-person support
+
+**v1.0** — Refinement pipeline only
 
 ---
 
-## Acknowledgments
+## Next Steps
 
-Built on principles derived from studying:
-- *A Wizard of Earthsea* by Ursula K. Le Guin
-- *The Dispossessed* by Ursula K. Le Guin
-
-This is a teaching tool, not a replacement for reading her work. If you want to write well, read Le Guin.
+1. **Read `QUICKSTART.md`** - Get running in 5 minutes
+2. **Try one workflow** - Pick from `workflows/`
+3. **Study what changes** - Learn from before/after
+4. **Apply lessons** - Write with principles in mind
+5. **Iterate** - Build mastery through practice
 
 ---
 
-## Questions or Issues?
+## Questions?
 
-This is a learning system. Experiment, adapt, make it your own.
+**"Which pipeline do I need?"**
+→ Use Master Orchestrator—it detects and routes
 
-The agents are guidelines. You're the writer.
+**"Can I use just one pipeline?"**
+→ Yes! Each works independently
+
+**"How do I get Le Guin-level quality?"**
+→ Use full pipeline (Expansion → Refinement)
+
+**"Does this work for [my genre]?"**
+→ Principles apply across all prose
+
+**"Can I customize the process?"**
+→ Yes—agents are modular, workflows are flexible
+
+---
+
+Start with `QUICKSTART.md` or dive into a workflow.
+
+The system is ready. Write something.

@@ -1,0 +1,118 @@
+=== EXAMPLE INPUT FOR EXPANSION PIPELINE ===
+
+Use this template when you want to GENERATE prose from an idea.
+
+===================================
+
+## Input (Your Idea)
+
+[Describe your idea - can be loose, conceptual, or structured]
+
+Examples:
+
+LOOSE IDEA:
+"Write about returning to grandmother's house after she dies and realizing the place isn't home anymore—she was."
+
+PLOT POINT:
+"Scene where character finally tells their mother the truth about why they left home years ago."
+
+JOURNAL THOUGHT:
+"I've been avoiding thinking about my childhood home. My parents sold it last year. I drove by last week but didn't stop. Thinking about what it means to lose a place that shaped you."
+
+CONCEPT:
+"The moment when freedom becomes overwhelming—first day after leaving a restrictive situation, not knowing what to do with yourself."
+
+===================================
+
+## Mode
+
+[Choose one: FULL / FROM_BEATS / ITERATIVE]
+
+FULL
+(Idea Expander creates beats, then Prose Generator creates prose)
+
+===================================
+
+## Context (Optional)
+
+[What is this? Scene, journal entry, essay, chapter?]
+
+This is a scene from a novel about loss and memory.
+
+===================================
+
+## Voice Preferences (Optional)
+
+[POV? Tense? Style notes?]
+
+- First person
+- Past tense
+- Close, intimate voice
+
+===================================
+
+## Target Length (Optional)
+
+[How long should the prose be?]
+
+- Brief scene (300-500 words)
+- Full scene (800-1200 words)  ← Most common
+- Longer piece (1500-2000 words)
+
+===================================
+
+## Must-Include (Optional)
+
+[Specific images, moments, or elements that must appear]
+
+- The key under the third stone
+- Her mending basket with unfinished work
+- The smell of stale bread (vs. fresh bread she used to make)
+
+===================================
+
+That's it! The Expansion Pipeline will:
+1. Convert your idea into structured beats
+2. Generate Le Guin-quality prose from those beats
+3. Optionally refine if you request it
+
+Expected outcome:
+- Beats showing emotional arc (5-10 beats typical)
+- Draft prose (800-1200 words typical)
+- Prose that already shows (doesn't tell)
+- Option to refine further
+
+===================================
+
+WHAT YOU'LL RECEIVE:
+
+[name]_beats.md
+- Structured beats
+- Emotional arc identified
+- Key images noted
+- Sensory anchors specified
+
+[name]_draft.md
+- Generated prose
+- Le Guin principles applied
+- Ready to use or refine
+
+===================================
+
+NEXT STEPS AFTER GENERATION:
+
+1. ACCEPT AS-IS
+   → Use the draft prose
+   → Manual revision if desired
+
+2. REFINE
+   → Run through Refinement Pipeline
+   → Get compressed, polished version + quality review
+
+3. ITERATE ON BEATS
+   → Review beats, request changes
+   → Regenerate with improved beats
+
+4. GENERATE VARIATIONS
+   → Try different beat structures
+   → Compare multiple versions
