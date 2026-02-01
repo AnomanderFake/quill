@@ -1,0 +1,60 @@
+=== EXAMPLE INPUT FOR QUILL PIPELINE ===
+
+Below is an example of how to format your input for the pipeline.
+You can use this template, or just paste your raw text directly.
+
+===================================
+
+## Text to Process
+
+[Paste your writing here. Can be a scene, essay, journal entry, etc.]
+
+Example:
+
+I was thinking about my childhood yesterday. I felt a strange mixture of nostalgia and sadness. I wondered if everyone feels this way when they remember the past. My grandmother's house was special to me. It had a particular smell—a combination of lavender, old books, and something I couldn't quite identify. When I think about her now, I realize that she was always busy doing something. She represented constancy to me. I didn't know then how much I would miss those summer afternoons.
+
+===================================
+
+## Pipeline Mode
+
+[Choose one: FULL / REFINE_ONLY / REVIEW_ONLY / ITERATIVE]
+
+FULL
+
+===================================
+
+## Context (Optional)
+
+[What is this piece? Scene from a novel, personal essay, journal entry, etc.]
+
+This is a fragment from a personal essay about memory and place.
+
+===================================
+
+## Goals (Optional)
+
+[What do you want to achieve? Tighten prose? Sharpen dialogue? Reduce over-explanation?]
+
+This feels over-explained and tell-y. I want it to be more showing, more physical, less self-analyzing.
+
+===================================
+
+## Constraints (Optional)
+
+[Anything to preserve? Target length? Specific elements that must stay?]
+
+Keep the grandmother and the house. The lavender detail matters.
+
+===================================
+
+That's it! The pipeline will:
+1. Refine the prose using Le Guin principles
+2. Review it against quality standards
+3. Return refined text + detailed feedback
+
+Expected outcome for the example above:
+- Much shorter (probably 50% reduction)
+- Physical details instead of emotion labels
+- No thought-reporting ("I wondered if...")
+- No self-analysis ("she represented constancy")
+- Trust the images to carry the meaning
