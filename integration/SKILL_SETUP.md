@@ -2,9 +2,34 @@
 
 ## Setup
 
-### 1. Create Skill Definition
+### 1. Install the Skill
 
-In your `~/.claude/skills/` directory, create `quill.md`:
+The skill definition is included in the Quill repository at `skills/quill/SKILL.md`.
+
+**Option A: Symlink (recommended)**
+```bash
+mkdir -p ~/.claude/skills/quill
+ln -s /Users/ramachandrakoganti/Desktop/code_repos/quill/skills/quill/SKILL.md ~/.claude/skills/quill/SKILL.md
+```
+
+**Option B: Copy**
+```bash
+mkdir -p ~/.claude/skills/quill
+cp /Users/ramachandrakoganti/Desktop/code_repos/quill/skills/quill/SKILL.md ~/.claude/skills/quill/SKILL.md
+```
+
+The symlink approach is recommended because it automatically picks up updates when you pull changes to the Quill repository.
+
+### 2. Verify Installation
+
+Check that the skill is available:
+```bash
+ls -la ~/.claude/skills/quill/SKILL.md
+```
+
+### 3. Skill Definition Reference
+
+For reference, the skill definition contains:
 
 ```markdown
 # Quill Writing Assistant
