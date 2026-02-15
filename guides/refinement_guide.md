@@ -52,6 +52,13 @@ Le Guin's prose is compressed because every violation of craft has been removed.
 - ✗ "The room smelled of bread, coffee, bacon, cinnamon, and smoke."
 - ✓ "The room smelled of bread and smoke."
 
+### No Em-Dashes
+- ✗ "A girl crashed into him—maybe eight, maybe his age—her hair wild."
+- ✓ "A girl crashed into him, her hair wild. Maybe eight, maybe his age."
+- ✗ "Smoke rose from the fires—fish grilling, bread baking."
+- ✓ "Smoke rose from the fires: fish grilling, bread baking."
+- Use periods, colons, commas, or restructure instead
+
 ---
 
 ## The Master Examples

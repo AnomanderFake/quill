@@ -216,12 +216,60 @@ Flag specific problems:
 - Generic dialogue
 - Redundant details
 - Crutch words ("sort of," "kind of," "almost," "very," "really")
+- **Em-dashes** (replace with periods, colons, commas, or restructure)
 
 **Count violations.** If there are more than 10 in a 1,000-word piece, significant revision needed.
 
 ---
 
-### Step 4: Comparison to Standard
+### Step 4: Structural Flow Assessment
+
+Review the piece as a whole, not line by line.
+
+**Before reading the technique files,** consult `resources/technique_flow.md` for the full framework.
+
+**4a. Escalation**
+Map the scenes. Does each raise the stakes, deepen conflict, or complicate the character?
+- **FAIL if:** Two or more scenes exist at the same emotional altitude
+- **FAIL if:** The character is in the same state at the end as the beginning
+- **CHECK:** Could any scene be removed without affecting the arc?
+
+**4b. Transitions**
+For each scene break, identify the bridge:
+- **STRONG:** Thematic echo, causal chain, tonal rupture, narrator framing, forward-leaning ending
+- **WEAK:** Chronological marker only ("That evening," "Three years passed," "The next morning")
+- **FAIL if:** More than half of transitions are chronological only
+
+**4c. Narrator Authority**
+Does the narrator step in at key transitions to frame moments within the larger arc?
+- **STRONG:** Narrator places small moments in large context ("This was his first step on the way...")
+- **WEAK:** Narrator observes but never evaluates or frames
+- **FAIL if:** Summary sections read as catalogs rather than story
+
+**4d. Compression**
+Is the chapter's weight distributed well?
+- **FAIL if:** The emotional climax is fragmented across multiple scenes that repeat the same beat
+- **FAIL if:** A scene's length is disproportionate to its narrative function
+- **CHECK:** Could any sequence of scenes be compressed into one stronger scene?
+
+**4e. Motif Evolution**
+Do recurring images evolve or just repeat?
+- **STRONG:** Same image carries different meaning at each appearance
+- **WEAK:** Same image, same meaning, multiple times
+- **FAIL if:** Key motifs are static across the chapter
+
+**Score:** FAIL / WEAK / ACCEPTABLE / STRONG
+
+**For FAIL or WEAK, specify:**
+- Which scenes don't escalate and why
+- Which transitions rely on chronology alone
+- Where the narrator is absent and shouldn't be
+- Where compression would strengthen the chapter
+- Which motifs are static
+
+---
+
+### Step 5: Comparison to Standard
 
 Open the Le Guin examples. Find parallel moments.
 
@@ -232,7 +280,7 @@ Open the Le Guin examples. Find parallel moments.
 
 ---
 
-### Step 5: Compression Check
+### Step 6: Compression Check
 
 **Ask:**
 - Could this be said in fewer words with greater impact?
@@ -242,7 +290,7 @@ Open the Le Guin examples. Find parallel moments.
 
 ---
 
-### Step 6: Final Verdict
+### Step 7: Final Verdict
 
 **Deliver judgment:**
 
@@ -268,7 +316,7 @@ Open the Le Guin examples. Find parallel moments.
 
 ---
 
-### Quality Scores
+### Line-Level Craft Scores
 
 1. Show, Don't Tell: [FAIL / WEAK / ACCEPTABLE / STRONG]
 2. Body Before Emotion: [FAIL / WEAK / ACCEPTABLE / STRONG]
@@ -280,6 +328,15 @@ Open the Le Guin examples. Find parallel moments.
 8. Structural Variation: [FAIL / WEAK / ACCEPTABLE / STRONG]
 9. Appropriate Compression: [FAIL / WEAK / ACCEPTABLE / STRONG]
 10. POV Integrity: [FAIL / WEAK / ACCEPTABLE / STRONG]
+
+### Structural Flow Score
+
+11. Structural Flow: [FAIL / WEAK / ACCEPTABLE / STRONG]
+    - Escalation: [score]
+    - Transitions: [score]
+    - Narrator Authority: [score]
+    - Compression: [score]
+    - Motif Evolution: [score]
 
 ---
 
@@ -448,10 +505,15 @@ If the writing doesn't match the Le Guin benchmark, say so and explain exactly w
 ## Version
 
 **v1.0** — Initial creation for generic writing pipeline
+**v1.1** — Added structural flow assessment (Step 4) with escalation, transitions, narrator authority, compression, and motif evolution checks
 **Last updated:** February 2026
 
 Adapted from Le Guin Standard Reviewer v1.0 (fis project) to work with any prose input.
 
 **Reference materials:**
-- `resources/examples_earthsea`
-- `resources/examples_dispossessed`
+- `resources/examples_earthsea.md`
+- `resources/examples_dispossessed.md`
+- `resources/technique_show_dont_tell.md`
+- `resources/technique_dialogue.md`
+- `resources/technique_trust_reader.md`
+- `resources/technique_flow.md`

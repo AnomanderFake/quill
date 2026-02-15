@@ -157,6 +157,18 @@ If working with limited third person:
 - Third person benefits from Le Guin's distance
 - Present tense or past—maintain what's there
 
+### 11. Punctuation Discipline
+
+**No em-dashes.** They interrupt flow and create visual clutter.
+
+**Replace with:**
+- **Period**: "A girl crashed into him—maybe eight, maybe his age—her hair wild." → "A girl crashed into him, her hair wild. Maybe eight, maybe his age."
+- **Colon**: "Smoke rose from the fires—fish grilling, bread baking." → "Smoke rose from the fires: fish grilling, bread baking."
+- **Comma**: "She moved through the house—banking the fire, setting things in order." → "She moved through the house, banking the fire, setting things in order."
+- **Restructure**: Break into shorter, cleaner sentences
+
+**Why:** Periods, colons, and commas maintain Le Guin's clean, rhythmic prose. Em-dashes create hesitation and visual weight.
+
 ---
 
 ## Refinement Process
